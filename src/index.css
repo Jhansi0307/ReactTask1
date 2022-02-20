@@ -33,6 +33,7 @@ section.pricing {
 
 .pricing ul li {
   margin-bottom: 1rem;
+  list-style-type:none;
 }
 
 .pricing .text-muted {
@@ -61,4 +62,7 @@ section.pricing {
   .pricing .card:hover .btn {
     opacity: 1;
   }
+}
+.space{
+  margin-left:15px;
 }

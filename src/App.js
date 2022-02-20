@@ -1,4 +1,6 @@
 import "./index.css";
+ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+ import { BsCheckLg,BsXLg } from "react-icons/bs"
 
 function App() {
   return (
@@ -17,52 +19,55 @@ function App() {
                 <div>
                   <hr/>
                 </div>
-                <ul className="fa-ul">
+                <ul>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                   
+                    <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Single User
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     5GB Storage
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                    
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Unlimited Public Projects
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Community Access
                   </li>
                   <li className="text-muted">
-                    <span className="fa-li">
-                      <i className="fas fa-times"></i>
+
+                  <BsXLg/>
+                  <span className="space">
                     </span>
                     Unlimited Private Projects
                   </li>
                   <li className="text-muted">
-                    <span className="fa-li">
-                      <i className="fas fa-times"></i>
+                  <BsXLg/>
+                  <span className="space">
                     </span>
                     Dedicated Phone Support
                   </li>
                   <li className="text-muted">
-                    <span className="fa-li">
-                      <i className="fas fa-times"></i>
+                  <BsXLg/>
+                  <span className="space">
                     </span>
                     Free Subdomain
                   </li>
                   <li className="text-muted">
-                    <span className="fa-li">
-                      <i className="fas fa-times"></i>
+                  <BsXLg/>
+                  <span className="space">
                     </span>
                     Monthly Status Reports
                   </li>
@@ -90,50 +95,50 @@ function App() {
                 </div>
                 <ul className="fa-ul">
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     <strong>5 Users</strong>
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     50GB Storage
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Unlimited Public Projects
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Community Access
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Unlimited Private Projects
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Dedicated Phone Support
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Free Subdomain
                   </li>
                   <li className="text-muted">
-                    <span className="fa-li">
-                      <i className="fas fa-times"></i>
+                  <BsXLg/>
+                  <span className="space">
                     </span>
                     Monthly Status Reports
                   </li>
@@ -161,50 +166,50 @@ function App() {
                 </div>
                 <ul className="fa-ul">
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     <strong>Unlimited Users</strong>
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     150GB Storage
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Unlimited Public Projects
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Community Access
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Unlimited Private Projects
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Dedicated Phone Support
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                  <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     <strong>Unlimited</strong> Free Subdomains
                   </li>
                   <li>
-                    <span className="fa-li">
-                      <i className="fas fa-check"></i>
+                    <BsCheckLg icon="fa-thin fa-x" />
+                    <span className="space">
                     </span>
                     Monthly Status Reports
                   </li>
